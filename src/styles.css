@@ -57,13 +57,3 @@ video {
 .swiper-pagination-bullet swiper-pagination-bullet-active {
   background-color: #fafafa !important;
 }
-/* 
-.swiper-slide img {
-  display: block;
-  width: 39.5rem;
-  height: 23.5rem;
-  border-radius: 1rem;
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin-top: 5rem;
-} */
