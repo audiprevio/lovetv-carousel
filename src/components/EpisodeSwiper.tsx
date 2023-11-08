@@ -67,7 +67,7 @@ export default function EpisodeSwiper() {
         <Suspense fallback={<div>Loading episodes...</div>}>
         <>
             {videos.map((video, index) => (
-                <video key={index} src={video} autoPlay loop muted playsInline className={`absolute w-full h-full object-cover transition-opacity duration-500 ease-linear ${currentVideo === index ? 'opacity-100' : 'opacity-0'}`}></video>
+                <video loading="lazy"  key={index} src={video} autoPlay loop muted playsInline className={`absolute w-full h-full object-cover transition-opacity duration-500 ease-linear ${currentVideo === index ? 'opacity-100' : 'opacity-0'}`}></video>
             ))}
             <Swiper
                 effect={'coverflow'}
@@ -90,7 +90,7 @@ export default function EpisodeSwiper() {
                 {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
                         <div className="relative group flex flex-col items-center justify-center">
-                            <img src={slide.image} className="object-cover transition-all duration-200 rounded-[1.5rem] ease-in-out group-hover:brightness-[0.15] xs:max-w-[250%]"/>
+                            <img src={slide.image} loading="eager" className="object-cover transition-all duration-200 rounded-[1.5rem] ease-in-out group-hover:brightness-[0.15] xs:max-w-[250%]"/>
                             <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-in-out text-xl text-center font-regular px-[5rem] xs:w-[24rem] sm:w-[30rem] md:w-[30rem] lg:w-[30rem] xl:w-[30rem] xs:mx-0 sm:px-10 tracking-wide">
                                 <p className="text-[#fafafa] mt-12 mb-10 antialiased xs:text-center xs:text-lg sm:text-lg md:text-lg lg:text-xl font-medium lg:pt-12 xs:pt-12 xl:pt-12">{slide.description}</p>
                                 <p className="text-[#9b9b9b] mb-1 antialiased xs:text-center xs:text-sm sm:text-sm md:text-sm lg:text-sm font-normal">{slide.casts}</p>
