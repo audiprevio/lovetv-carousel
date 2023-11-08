@@ -1,0 +1,69 @@
+#app { height: 100vh }
+html,
+
+:root {
+  --swiper-theme-color: #e5e5e5;
+}
+body {
+  position: relative;
+  height: 100vh;
+}
+
+body {
+  background: #111111;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active {
+  background-position: center;
+  /* background-size: cover; */
+  width: 37.5rem !important;
+  height: 37.5rem;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 37.5rem;
+  height: 37.5rem;
+  object-fit: cover;
+}
+
+video {
+    filter: brightness(45%);
+    height: 100%;
+}
+
+.swiper-slide-next {
+    transform: scale(1);
+    filter: brightness(50%);
+    opacity: 0.85;
+}
+
+.swiper-slide-prev {
+    transform: scale(1);
+    filter: brightness(50%);
+    opacity: 0.85;
+}
+
+.swiper-pagination-bullet swiper-pagination-bullet-active {
+  background-color: #fafafa !important;
+}
+/* 
+.swiper-slide img {
+  display: block;
+  width: 39.5rem;
+  height: 23.5rem;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-top: 5rem;
+} */
