@@ -14,7 +14,7 @@ Welcome to the Github Repo of LoveTV Episode Selection Page - Carousel Style. As
 
 #### Technical Requirement
 
-- NodeJS latest (to install packages)
+- NodeJS 20 (to install packages)
 
 <br />
 
@@ -49,19 +49,19 @@ npm or yarn
 ### Installation
 
 1. Clone the repo:
-\```bash
+```bash
 git clone https://github.com/audiprevio/lovetvcarousel
-\```
+```
 
 2. Install NPM packages:
-\```bash
+```bash
 npm install
-\```
+```
 
 3. Serve with hot reload at localhost:5173:
-\```bash
+```bash
 npm run dev
-\```
+```
 
 That's it! You're ready to roll with the LoveTV Episode Selection Page.  
   
