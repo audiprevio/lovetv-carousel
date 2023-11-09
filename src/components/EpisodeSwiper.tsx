@@ -12,7 +12,7 @@ import image4 from '../assets/e4.avif';
 import { Button } from '@mui/base/Button';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import Skeleton from '@mui/material/Skeleton';
+
 
 
 export default function EpisodeSwiper() {
