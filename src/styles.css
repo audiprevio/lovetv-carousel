@@ -1,4 +1,4 @@
-#app { height: 100vh }
+#app { height: 100% }
 html,
 
 :root {
@@ -6,7 +6,7 @@ html,
 }
 body {
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active {

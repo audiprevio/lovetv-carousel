@@ -122,7 +122,7 @@ export default function EpisodeSwiper() {
                                     </div>
                                 </Button>                        
                             </div>
-                            <h1 className="mb-2 mt-4 opacity-100 text-[#fafafa] transition-opacity duration-200 ease-in-out text-xxl font-medium antialiased xs:text-center xs:text-base sm:text-base md:text-base lg:text-xl xs:w-[37.5rem] s:w-[37.5rem]">{slide.title}</h1>
+                            <h1 className="mb-2 mt-[0.75rem] opacity-100 text-[#fafafa] transition-opacity duration-200 ease-in-out text-xxl font-medium antialiased xs:text-center xs:text-base sm:text-base md:text-base lg:text-xl xs:w-[37.5rem] s:w-[37.5rem]">{slide.title}</h1>
                         </div>
                     </SwiperSlide>
                 ))}
