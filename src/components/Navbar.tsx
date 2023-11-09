@@ -34,10 +34,10 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
         <div>
         </div>  
         <div className='lg:gap-2 xl:gap-4 lg:mr-[0.75rem] xl:mr-[1.5rem] sm:hidden xs:hidden md:hidden lg:flex xl: flex'>
-          <Button className='transition-all duration-200  ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-1 py-1 rounded-lg first-letter: antialiased'>
+          <Button className='transition-all duration-200  ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-[0.1rem] py-1 rounded-lg first-letter: antialiased'>
               Home
           </Button>
-          <Button className='transition-all duration-200  ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-1 py-1 rounded-lg first-letter: antialiased'>
+          <Button className='transition-all duration-200  ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-[0.1rem] py-1 rounded-lg first-letter: antialiased'>
               Search
           </Button>
           <Dropdown>
@@ -59,11 +59,11 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
                   >Coming of Age</MenuItem>
               </Menu>
           </Dropdown>
-          <Button className='transition-all duration-200  ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-1 py-1 rounded-lg first-letter: antialiased'>
+          <Button className='transition-all duration-200  ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-[0.1rem] py-1 rounded-lg first-letter: antialiased'>
               My List
           </Button>
           <Dropdown>
-              <MenuButton className='cursor-pointer flex items-center transition-all duration-200 ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-1 py-1 rounded-lg first-letter: antialiased'>
+              <MenuButton className='cursor-pointer flex items-center transition-all duration-200 ease-in-out hover:bg-[#111111] hover:bg-opacity-50 hover:px-2 hover:py-1 hover:rounded-lg xl:px-2 lg:px-[0.1rem] py-1 rounded-lg first-letter: antialiased'>
                   <Avatar className='mr-2 !w-[1.5rem] !h-[1.5rem]' src={AvatarJoy} />Ruby M.</MenuButton>
               <br />
               <Menu className='!w-[8rem] !mr-[2rem] p-[1rem] bg-[#111111] bg-opacity-90 text-center justify-center rounded-lg z-50'>

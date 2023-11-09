@@ -7,7 +7,7 @@ html,
 }
 body {
   position: relative;
-  height: 100%;
+  height: 100vh;
 }
 
 body {
@@ -24,23 +24,22 @@ body {
   height: calc(var(--vh, 1vh) * 100);
 }
 
-.swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active {
-  background-position: center;
-  background-size: cover;
-  width: 37.5rem !important;
-  height: 37.5rem;
-}
-
 .swiper-slide img {
-  display: block;
   width: 37.5rem;
   height: 37.5rem;
-  object-fit: cover;
 }
 
 video {
     filter: brightness(45%);
     height: 100%;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* The rule inside here applies only to Safari 9+ */
+  .swiper {
+    /* Overrides height for Safari */
+    height: 100%;
+  }
 }
 
 .swiper-slide-next {
