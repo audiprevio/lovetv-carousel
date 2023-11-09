@@ -64,7 +64,6 @@ export default function EpisodeSwiper() {
     const [isSaved, setIsSaved] = useState<boolean[]>(new Array(slides.length).fill(false));
 
     return (
-        <Suspense fallback={<div>Loading episodes...</div>}>
         <>
             {videos.map((video, index) => (
                 <video loading="lazy"  key={index} src={video} autoPlay loop muted playsInline className={`absolute w-full h-full object-cover transition-opacity duration-500 ease-linear ${currentVideo === index ? 'opacity-100' : 'opacity-0'}`}></video>
@@ -128,6 +127,5 @@ export default function EpisodeSwiper() {
                 ))}
             </Swiper>
         </>
-    </Suspense>
     );
 }
