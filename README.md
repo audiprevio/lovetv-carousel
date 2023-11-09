@@ -1,5 +1,4 @@
 <img width="1440" alt="Screenshot 2023-11-09 at 14 07 44" src="https://github.com/audiprevio/lovetvcoverflow/assets/126348614/5eeb8ad1-1fce-4be4-bed6-09e84319c64f">
-                  <i> Preview of The Carousel Episode Selection Page </i>
 
 # LoveTV - Carousel Style Episode Selection - [Link](https://lovetv.netlify.app)
 
@@ -156,13 +155,13 @@ This project will render the videos by mapping through an array of video URLs (v
 
 <br />
 
-### 6. Known Issues:
+# 6. Known Issues:
 - Unselected slide might not be transparent (i.e. treated as active, still investigating)
 - Swiper components tend to be very hard to style directly using tailwind so a styles.css is used
 
 <br />
 
-### 7. Contribution Guidelines
+# 7. Contribution Guidelines
 Want to contribute? Great! Here's how you can help:
 
 - Fork the repo and create your branch from main.
@@ -175,7 +174,7 @@ Want to contribute? Great! Here's how you can help:
 <br />
 
 
-### 8. Credits and Acknowledgments
+# 8. Credits and Acknowledgments
 - Videos: Thanks to coverr.co for providing free stock videos.
 - Icons: Icons provided by Material UI.
 
@@ -184,7 +183,7 @@ Want to contribute? Great! Here's how you can help:
 <br />
 
 
-### 9. About Me & Contact
+# 9. About Me & Contact
 
 I'm an aspiring Frontend Developer on a career transition from a nearly 2.5 years of UX Research and Design professional experience. This project is one of my many Frontend projects. Drop a hello to me at: https://www.linkedin.com/in/audi-previo/ :D
 
