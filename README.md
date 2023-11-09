@@ -41,7 +41,7 @@ These instructions will get your copy of the project up and running on your loca
 
 What things you need to install the software and how to install them.
 
-```bash
+```
 Node.js 12.x
 npm or yarn
 ```
@@ -49,17 +49,17 @@ npm or yarn
 ### Installation
 
 1. Clone the repo:
-```bash
+```
 git clone https://github.com/audiprevio/lovetvcarousel
 ```
 
 2. Install NPM packages:
-```bash
+```
 npm install
 ```
 
 3. Serve with hot reload at localhost:5173:
-```bash
+```
 npm run dev
 ```
 
